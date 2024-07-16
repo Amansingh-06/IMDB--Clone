@@ -1,0 +1,122 @@
+/* Reset default margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(36, 36, 75);
+    padding: 10px;
+}
+
+/* Style for main title and footer text */
+.maintitle,
+footer {
+    color: white;
+}
+
+/* Button styling */
+button {
+    padding: 5px;
+    background-color: yellow;
+    border: none;
+}
+
+/* Input field styling */
+input {
+    padding: 5px;
+    border: none;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgb(36, 36, 75);
+    padding: 8px;
+    text-align: center;
+}
+
+/* Movie container styling */
+.movie-container {
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the main movie detail section */
+.main {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    padding: 20px;
+    height: 350px;
+}
+
+/* Styling for the movie poster */
+.moviepic {
+    width: auto;
+    max-height: 350px auto;
+}
+
+/* Styling for the movie description section */
+.discriptionDiv {
+    color: black;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Heading styles within the description section */
+.discriptionDiv h1,
+h3 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Styling for the genre tags */
+.genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Genre tag styling */
+.genre p {
+    background-color: rgb(36, 36, 75);
+    color: white;
+    border-radius: 5px;
+    padding: 3px 7px;
+}
+
+/* Styling for the movie data section */
+.moviedata {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Margin for individual movie data items */
+.moviedata h4 {
+    margin-top: 10px;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Span element styling */
+span {
+    font-size: 15px;
+    font-weight: 300;
+}
